@@ -1,0 +1,37 @@
+Cucumber is gherkins
+- readable
+
+
+
+Scenario: what are you going to do in this test case
+Given
+When
+Then
+
+.feature - a set of test case scenarios, a story of a number of test cases
+
+
+
+Step1: create new folder
+Steo2: install required softwares
+Step3: install playwright
+step4: add cucumber plugin
+step 5: install cucumber
+
+npm i @cucumber/cucumber -D
+
+npm i ts-node -D
+
+
+
+selectors node = success message
+
+
+hooks 
+before
+beforeall
+beforestep
+
+after
+afterall
+afterstep
