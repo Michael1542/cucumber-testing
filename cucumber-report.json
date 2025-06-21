@@ -1,0 +1,129 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page-validation;login-with-valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "login with valid username and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Provide valid url",
+            "match": {
+              "location": "file:/Users/michaelwang/Desktop/PlayWright/playwright-cucumber/cucumber-testing/src/tests/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3177030086
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Provide valid username and password",
+            "match": {
+              "location": "file:/Users/michaelwang/Desktop/PlayWright/playwright-cucumber/cucumber-testing/src/tests/steps/loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65852544
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "file:/Users/michaelwang/Desktop/PlayWright/playwright-cucumber/cucumber-testing/src/tests/steps/loginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2789400131
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 353358318
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-validation;login-with-valid-username-and-password-with-params",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "login with valid username and password with params",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Provide valid url",
+            "match": {
+              "location": "file:/Users/michaelwang/Desktop/PlayWright/playwright-cucumber/cucumber-testing/src/tests/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2789223133
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Provide valid username as \"mercury\" and password as \"mercury\"",
+            "match": {
+              "location": "file:/Users/michaelwang/Desktop/PlayWright/playwright-cucumber/cucumber-testing/src/tests/steps/loginSteps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128724916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Click on login button",
+            "match": {
+              "location": "file:/Users/michaelwang/Desktop/PlayWright/playwright-cucumber/cucumber-testing/src/tests/steps/loginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2835147025
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 242273836
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login page validation",
+    "tags": [],
+    "uri": "src/tests/features/login.feature"
+  }
+]

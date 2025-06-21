@@ -15,9 +15,20 @@ BeforeAll(async function(){
 })
 
 AfterAll(async function(){
+    console.log("afterall")
     await pageFixture.page.close();
     await context.close();
     await browser.close();
+})
+
+After(async function({pickle}){
+    const images = await pageFixture.page.screenshot(
+        {path: `./test-result/screenshot/${pickle}.png`,
+        type: 'png'}
+    );
+    await this.attach(images, "image/png")
+
+
 })
 
 

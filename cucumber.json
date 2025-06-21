@@ -7,14 +7,17 @@
         "publishQuite": true,
         "dryRun": false,
         "require":[
-            "src/tests/steps/*.ts",
-            "src/tests/utilities/hooks.ts"
+            "src/tests/steps/*.ts"
         ],
         "requireModule": [
             "ts-node/register"
         ],
         "format":[
-            "html: cucumber-report.html"
-        ]
+            "html:cucumber-report.html",
+            "json:cucumber-report.json",
+            "rerun:@rerun.txt"
+
+        ],
+        "parallel": 2
     }
 }
